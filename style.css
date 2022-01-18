@@ -227,6 +227,7 @@ a.active, a:hover {
 .team-section .container {
     width: 80%;
     margin: auto;
+    padding-bottom: 200px;
 }
 
 .team-section .container .row {
@@ -314,4 +315,9 @@ a.active, a:hover {
     .team-section .container .team-card {
         grid-template-columns: 1fr;
     }
+}
+
+.budget {
+    justify-content: center;
+    align-items: center;
 }
