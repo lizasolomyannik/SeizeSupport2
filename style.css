@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -322,19 +322,35 @@ a.active, a:hover {
     align-items: center;
 }
 
-.wrapper {
-    width: 100%;
-    display: flex;
-    align-items: center;
+form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
     justify-content: center;
+    align-items: center;
 }
 
-#subscribebox {
-    width: 700px;
-    max-width: 100%;
-    margin: auto;
-    background: #B4CDED;
-    text-align: center;
-    border-radius: 4px;
-    padding: 60px 20px;
+.form_container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], input[type=submit] {
+    width: 50%;
+    padding: 12px;
+   /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #216b49;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
 }

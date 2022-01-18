@@ -143,16 +143,20 @@
         </section>
 
         <section id="subscription">
-            <div class="wrapper">
-                <div id='subscribebox'>
-                    <i class="fas fa-paw"></i>
-                    <h3>Подпишитесь на нашу рассылку</h3>
-                    <form action="">
-                        <input type="text" placeholder='Введите адрес электронной почты' id='email-input'>
-                        <input type="submit" value="Подписаться" id='subscribe-button'>
-                    </form>
+            <form action="/action_page.php">
+                <div class="form_container">
+                  <h2>Подпишитесь на нашу рассылку</h2>
+                  <p>Оповестим когда выйдет приложение и все такое.</p>
                 </div>
-            </div>
+              
+                <div class="form_container" style="background-color:white">
+                  <input type="text" placeholder="Email address" name="mail" required>
+                </div>
+              
+                <div class="form_container">
+                  <input type="submit" value="Subscribe">
+                </div>
+              </form>
         </section>
 
     </body>
