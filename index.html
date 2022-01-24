@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon-32x32.jpg" type="image/png"> <!-- фавиконка -->
+        
+
+        <title>SeizeSupport</title>
+        <link rel="stylesheet" href='style.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <script defer src='./scripts/script.js'></script>
+    </head>
+        <section id='menu'>
+            <nav>
+                <input type="checkbox" id='check'>
+                <label for="check" class='checkbtn'>
+                    <i class='fas fa-bars'></i>
+                </label>
+                <label class="logo">SeizeSupport</label>
+                <ul>
+                    <li><a class='active' href="#main">ГЛАВНАЯ</a></li>
+                    <li><a href="#features__section">О ПРИЛОЖЕНИИ</a></li>
+                    <li><a href="gallery.html" target="_blank">СКРИНШОТЫ</a></li>
+                    <li><a href="#team">О НАС</a></li>
+                    <li><a href="#budget">БЮДЖЕТ</a></li>
+                    <li><a href="staticstics.html">СТАТИСТИКА</a></li>
+                </ul>
+            </nav>
+        </section>
+    <body>
+
+        <!-- 
+        <div class="preloader">
+            <div class="preloader__image"></div>
+        </div> -->
+
+        <section id='header'>
+          <div class="header_row">
+              <div class="header_col">
+                  <h1>SeizeSupport</h1>
+                  <p>Не бойтесь обратиться за помощью</p>
+              </div>
+              <div class="header_col">
+                  <img src="images/dog.png" alt="">
+              </div>
+          </div>
+      </section>
+        
+        <!-- главная -->
+        <section id='main'>
+            <div class="main_text">
+                <p>Более <b>1 миллиона</b> человек по всему миру страдают эпилепсией и более <b>2 миллионов</b> сталкиваются с паническими атаками. И это только диагностированные случаи. Наше приложение обладает широким спектром функций  —  от возможности быстро позвонить по номеру <b>112</b> до <b>повышения информированности</b> об эпилепсии и панических атаках.</p>
+            </div>
+
+            <div class='popup_paw'>
+                <button id='open'>
+                    <img src='./images/paw.png'> 
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>прочитать клинические рекомендации</h2>
+                        <p><a href='https://npcpn.ru/doc/2021/kr-epilepsiya.pdf'>можно здесь</a></p>
+                        <button id='close'>
+                            <img src='./images/paw.png'>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!-- конец главной страницы -->
+        <section id='features__section'>
+            <div class="features__top">
+                <h1>Основные возможности</h1>
+                <p>Подробнее о главных функциях приложения SeizeSupport</p>
+            </div>
+
+            <div class="features__container">
+                <div class="feature__item">
+                    <i class="fas fa-exclamation"></i>
+                    <div class="featureItem__info">
+                        <h3>Тревожная кнопка</h3>
+                        <p>Большая кнопка для вызова скорой, автоматически отправляет сообщение людям, чьи контакты вписаны в приложение, с информацией о местонахождении и симптомах.</p>
+                    </div>
+                </div>
+                <div class="feature__item">
+                    <i class="fas fa-user-circle"></i>
+                    <div class="featureItem__info">
+                        <h3>Личный кабинет</h3>
+                        <p>ФИО, Возраст, Пол, Диагнозы, Медикаменты, Экстренные контакты, Контакты лечащего врача (ФИО, телефон, специализация). Текст для экстренных контактов.</p>
+                    </div>
+                </div>
+                <div class="feature__item">
+                    <i class="fas fa-pills"></i>
+                    <div class="featureItem__info">
+                        <h3>Диагноз и медикаменты</h3>
+                        <p>Информация о диагнозе пользователя и прописанных ему препаратах, которая облегчит купирование приступа фельдшеру скорой помощи, приехавшему на вызов.</p>
+                    </div>
+                </div>
+                <div class="feature__item">
+                    <i class="fas fa-history"></i>
+                    <div class="featureItem__info">
+                        <h3>Динамика приступов</h3>
+                        <p>Возможность отслеживания состояния пользователя со временем.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+        <section id='team'>
+            <div class="team-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="title">
+                            <h1>Наша команда</h1>
+                            <p>Присоединяйся!</p>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="card">
+                            <div class="image-section">
+                                <img src="images/karina.jpeg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Карина Агафонова</h3>
+                                <p>СЕО</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-section">
+                                <img src="images/liza.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Елизавета Соломянник</h3>
+                                <p>Веб-дизайн</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-section">
+                                <img src="images/olya.jpeg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Ольга Драбеня</h3>
+                                <p>Копирайтер</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-section">
+                                <img src="images/danya.jpeg" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Даниэла-Клэр Нкодиа</h3>
+                                <p>Информационная безопасность</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            <!-- цитата -->
+        <section id="testimonial">
+            <br>
+            <div class="bg-color bg-testimonial">
+              <div class="testimonial section-padding">
+                <div class="container">
+                  <div class="testimonial-slide">
+                        <div class="item">
+                          <div class="image">
+                            <img src="images\цитата.png" alt="" height=210>
+                          </div> <!-- end .image -->
+                          <br>
+                          <div class="content">
+                            <p>Идея этого приложения пришла к нам пару месяцев назад, и вот почему мы бы хотела работать над ним. Приступы эпилептической и неэпилептической природы часто стигматизируются, и нам бы хотелось это изменить, а для этого нужна платформа. 
+                            </p>
+                          </div> <!-- end .content -->
+                        </div> <!-- end .item (1) -->
+                  </div> <!-- end .testimonial-slide -->
+                </div> <!-- end .container -->
+              </div> <!-- end .testimonial -->
+            </div> <!-- end .bg-testimonial -->
+          </section>
+          <!-- конец цитаты -->
+
+          <!-- бюджет -->
+        <section id='budget'>
+            <div class="budgeting__info">
+                        <h1>Бюджет</h1>
+                        <p>Мы подсчитали, что на первые два года нам потребуется <b>3,7 млн</b> рублей. Мы используем эти деньги для запуска и обеспечения беспрерывной работы приложения. Мы понимаем, как важно обеспечить приватность данных, поэтому мы готовы инвестировать в <b>информационную безопасность.</b></p>
+            </div>
+        </section>
+          
+              <section id='graph'>
+                <div class="graph_row">
+                    <div class="graph_col">
+                        <iframe title="Планируемые расходы" aria-label="Donut Chart" id="datawrapper-chart-VHSum" src="https://datawrapper.dwcdn.net/VHSum/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="373"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                        </script>
+                    </div>
+                    <div class="graph_col">
+                      <iframe title="Инвестиции" aria-label="Donut Chart" id="datawrapper-chart-xRp6x" src="https://datawrapper.dwcdn.net/xRp6x/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 80% !important; border: none;" height="373"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                      </script>                                                       
+                        </div>
+                </div>
+            </section>
+
+<!-- футер -->   
+
+<footer>
+<div class="content">
+<div class="left box">
+  <div class="upper">
+    <div class="topic">Адрес</div>
+    <p>Санкт-Петербург</p> 
+    <p>Ломоносова, 9</p> 
+    <p>1417</p>
+  </div>
+  <div class="lower">
+    <div class="topic">Контакты</div>
+    <div class="phone">
+      <a href="#"><i class="fas fa-phone-volume"></i>+7 921 123 45 67</a>
+    </div>
+    <div class="email">
+      <a href="mailto:custumerservice@ss.com"><i class="fas fa-envelope"></i>customerservice@ss.com</a>
+    </div>
+  </div>
+</div>
+<div class="middle box">
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A56b3e5f0217cf96b5da4ee93be9539e7348e64940bc67eacd1f18c09e3e74786&amp;width=300&amp;height=200&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+<div class="right box">
+  <div class="topic">Наша рассылка</div>
+  <form action="#">
+    <input type="text" placeholder="Enter email address">
+    <input type="submit" name="" value="Подписаться">
+    <div class="media-icons">
+      <a href="https://www.youtube.com/watch?v=NUYvbT6vTPs&t=56s" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/watch?v=qowSdqsZ5e8" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/watch?v=NUYvbT6vTPs&t=56s" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/watch?v=qowSdqsZ5e8" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.youtube.com/watch?v=NUYvbT6vTPs&t=56s" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </form>
+</div>
+</div>
+</footer>
+
+<!-- футер конец -->
+
+    </body>
+</html>
