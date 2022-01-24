@@ -221,7 +221,7 @@ a.active, a:hover {
 
 .team-section {
     width: 100%;
-    padding-top: 200px;
+    margin-top: 150px;
 }
 
 .team-section .container {
@@ -320,6 +320,7 @@ a.active, a:hover {
 .budget {
     justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
 }
 
 .graph_row {
@@ -376,6 +377,9 @@ footer .content{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 footer .content p,a{
   color: #fff;
@@ -386,13 +390,14 @@ footer .content .box{
 }
 footer .content .topic{
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 200;
   color: #fff;
   margin-bottom: 16px;
 
 }
 footer .content p{
   text-align: justify;
+  font-weight: 200;
 }
 footer .content .lower .topic{
   margin: 24px 0 5px 0;
@@ -401,7 +406,7 @@ footer .content .lower i{
   padding-right: 16px;
 }
 footer .content .middle{
-  padding-left: 100px;
+  padding-left: 10px;
 }
 footer .content .middle a{
   line-height: 32px;
@@ -418,7 +423,7 @@ footer .content .right input[type="text"]{
   border: 2px solid #ffffff;
 }
 footer .content .right input[type="submit"]{
-  height: 42px;
+  height: 50px;
   width: 100%;
   font-size: 18px;
   color: #ffffff;
@@ -444,7 +449,7 @@ footer .content .media-icons a{
   line-height: 43px;
   border-radius: 5px;
   border: 2px solid #ffffff;
-  margin: 30px 5px 0 0;
+  margin: 15px 5px 0 0;
   transition: all 0.3s ease;
 }
 .content .media-icons a:hover{
@@ -486,8 +491,8 @@ footer a:hover{
     width: 100%;
     margin-top: 30px;
   }
-  footer .content .middle{
-    padding-left: 0;
+  footer .content .middle_box{
+      padding-left: 0;
   }
 }
 
@@ -510,35 +515,68 @@ footer a:hover{
 	border-radius: 100%;
 	overflow: hidden;
 	margin-bottom: 50px;
+    margin-top: 50px;
 }
 .testimonial .testimonial-slide .content p {
-	position: relative;
+	/* position: relative; */
 	padding:0 50px;
+    font-weight: 200;
 	margin-bottom: 50px;
 	color: #BABABA;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .budgeting__info {
     padding: 1.5rem;
     width: 100%;
+    margin-bottom: 70px;
 }
 
 .budgeting__info h1 {
-    color: #D98859;
-    letter-spacing: 0.1rem;
-    margin-bottom: 0.3rem;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    color: #216b49;
+    letter-spacing: 1.5px;
     text-align: center;
 }
 
 .budgeting__info p {
-    color: rgb(0, 0, 0);
-    letter-spacing: 0.01rem;
-    font-weight: 100;
+    font-weight: 200;
+    font-size: 20px;
     text-align: center;
-    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 25px;
+}
 
-<!-- футер -->
-
-
-
-<!-- футер конец -->
+ /* .preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 1001;
+  }
+  
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-top: -32px;
+    margin-left: -32px;
+    background: url('paws.gif') no-repeat 50% 50%;
+  }
+  
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+.loaded .preloader {
+    display: none;
+  } */
