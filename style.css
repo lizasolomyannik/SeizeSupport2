@@ -396,12 +396,14 @@ a.active, a:hover {
     display: flex;
     height: 88%;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .graph_col {
     flex-basis: 50%;
     align-items: center;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 
 input[type=text], input[type=submit] {
@@ -423,7 +425,6 @@ input[type=submit]:hover {
     opacity: 0.8;
 }
 
-/* Footer */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -446,7 +447,7 @@ footer .content{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 150px;
+  margin-top: 70px;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -565,8 +566,6 @@ footer a:hover{
   }
 }
 
-/* the end footer */ 
-
 #testimonial {
     background-color: rgb(255, 255, 255);
     padding-bottom: 20px;
@@ -578,11 +577,11 @@ footer a:hover{
 	margin-bottom: 70px;
 }
 .testimonial .testimonial-slide .image {
-	width: 150px;
-	height: 150px;
+	width: 100%;
+	height: 100%;
 	margin: auto;
-	border: 7px solid #D98859;
-	border-radius: 100%;
+	/* border: 7px solid #D98859;
+	border-radius: 100%; */
 	overflow: hidden;
 	margin-bottom: 50px;
     margin-top: 50px;
