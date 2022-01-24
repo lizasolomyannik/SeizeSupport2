@@ -47,7 +47,7 @@ body {
     line-height: 50px;
     color: #2E363E;
 }
-
+  
 nav {
     background: #13402B;
     height: 80px;
@@ -322,18 +322,16 @@ a.active, a:hover {
     align-items: center;
 }
 
-form {
-    border: 3px solid #f1f1f1;
-    font-family: Arial;
-    justify-content: center;
+.graph_row {
+    display: flex;
+    height: 88%;
     align-items: center;
 }
 
-.form_container {
-    padding: 20px;
-    background-color: #f1f1f1;
-    margin-left: auto;
-    margin-right: auto;
+.graph_col {
+    flex-basis: 50%;
+    align-items: center;
+    padding-left: 150px;
 }
 
 input[type=text], input[type=submit] {
@@ -341,7 +339,7 @@ input[type=text], input[type=submit] {
     padding: 12px;
    /* margin: 8px 0; */
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(255, 255, 255);
     box-sizing: border-box;
 }
 
@@ -354,3 +352,193 @@ input[type=submit] {
 input[type=submit]:hover {
     opacity: 0.8;
 }
+
+/* Footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: #13402B;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 100px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #ffffff;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #ffffff;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  background: #D98859;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #D98859;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #fdfdfd;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #ffffff;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #ffffff;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #ffffff;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+
+/* the end footer */ 
+
+#testimonial {
+    background-color: rgb(255, 255, 255);
+}
+.testimonial .testimonial-slide {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.testimonial .testimonial-slide .image {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border: 7px solid #D98859;
+	border-radius: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.testimonial .testimonial-slide .content p {
+	position: relative;
+	padding:0 50px;
+	margin-bottom: 50px;
+	color: #BABABA;
+}
+
+.budgeting__info {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.budgeting__info h1 {
+    color: #D98859;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.budgeting__info p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.01rem;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+
+<!-- футер -->
+
+
+
+<!-- футер конец -->
