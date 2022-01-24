@@ -21,6 +21,8 @@
  - ["Скриншоты"](https://mockuphone.com)
  - [Цвета соцсетей](https://materialui.co/socialcolors/)
  - [Генератор цифровой палитры](https://color.adobe.com/ru/create/color-wheel)
+ - [DataWrapper](https://www.datawrapper.de)
+ - Yandex.Maps
  - YouTube ;) 
 
 ## Authors
