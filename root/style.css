@@ -148,8 +148,77 @@ a.active, a:hover {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     line-height: 40px;
+}
+
+.popup_paw {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.popup_paw button {
+    background-color: transparent;
+    border: none;
+    /* color: white; */
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.popup_paw button img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.popup_paw .modal_container {
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.popup_paw .modal_container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.popup_paw .modal {
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.popup_paw .modal h2 {
+    margin: 0;
+    font-weight: 200;
+    color: #216b49;
+}
+
+.popup_paw .modal p {
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 200;
+    color: #D98859;
+    padding-top: 20px;
+}
+
+.popup_paw .modal a {
+    color: #D98859;
 }
 
 .features__section {
