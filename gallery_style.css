@@ -1,15 +1,22 @@
 * {
     background-color: #F2EFEB;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.2s ease;
 }
 .body {
-    padding: 0;
+   /* padding: 0; 
     margin: 0;
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: center; */
     background-color: #F2EFEB;
-    overflow: hidden;
+    /* overflow: hidden; */
+    font-family: montserrat;
 }
 
 .slide_container {
@@ -122,3 +129,42 @@
 #slider-span5:target ~ .image-slider {left: -25%;}
 #slider-span6:target ~ .image-slider {left: -50%;}
 #slider-span7:target ~ .image-slider {left: -70%;}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #F2EFEB;
+    z-index: 1001;
+}
+  
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+  
+@keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+  
+.loaded .preloader {
+    display: none;
+}

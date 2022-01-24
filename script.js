@@ -9,3 +9,11 @@ open.addEventListener('click', () => {
 close.addEventListener('click', () => {
     modal_container.classList.remove('show');
 });
+
+window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  };

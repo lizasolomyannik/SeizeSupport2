@@ -148,77 +148,8 @@ a.active, a:hover {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
     line-height: 40px;
-}
-
-.popup_paw {
-    align-items: center;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.popup_paw button {
-    background-color: transparent;
-    border: none;
-    /* color: white; */
-    height: 100px;
-    width: 100px;
-    align-items: center;
-}
-
-.popup_paw button img {
-    height: 100px;
-    width: 100px;
-    align-items: center;
-}
-
-.popup_paw .modal_container {
-    background-color: rgba(0,0,0,0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    opacity: 0;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    transition: opacity 0.3s ease;
-}
-
-.popup_paw .modal_container.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-
-.popup_paw .modal {
-    background-color: white;
-    padding: 30px 50px;
-    border-radius: 5px;
-    width: 600px;
-    max-width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    text-align: center;
-}
-
-.popup_paw .modal h2 {
-    margin: 0;
-    font-weight: 200;
-    color: #216b49;
-}
-
-.popup_paw .modal p {
-    opacity: 0.7;
-    font-size: 20px;
-    font-weight: 200;
-    color: #D98859;
-    padding-top: 20px;
-}
-
-.popup_paw .modal a {
-    color: #D98859;
 }
 
 .features__section {
@@ -290,13 +221,13 @@ a.active, a:hover {
 
 .team-section {
     width: 100%;
-    margin-top: 100px;
+    padding-top: 200px;
 }
 
 .team-section .container {
     width: 80%;
     margin: auto;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .team-section .container .row {
@@ -389,7 +320,6 @@ a.active, a:hover {
 .budget {
     justify-content: center;
     align-items: center;
-    padding-bottom: 200px;
 }
 
 .graph_row {
@@ -446,9 +376,6 @@ footer .content{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 150px;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 footer .content p,a{
   color: #fff;
@@ -459,14 +386,13 @@ footer .content .box{
 }
 footer .content .topic{
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
 
 }
 footer .content p{
   text-align: justify;
-  font-weight: 200;
 }
 footer .content .lower .topic{
   margin: 24px 0 5px 0;
@@ -475,7 +401,7 @@ footer .content .lower i{
   padding-right: 16px;
 }
 footer .content .middle{
-  padding-left: 10px;
+  padding-left: 100px;
 }
 footer .content .middle a{
   line-height: 32px;
@@ -492,7 +418,7 @@ footer .content .right input[type="text"]{
   border: 2px solid #ffffff;
 }
 footer .content .right input[type="submit"]{
-  height: 50px;
+  height: 42px;
   width: 100%;
   font-size: 18px;
   color: #ffffff;
@@ -518,7 +444,7 @@ footer .content .media-icons a{
   line-height: 43px;
   border-radius: 5px;
   border: 2px solid #ffffff;
-  margin: 15px 5px 0 0;
+  margin: 30px 5px 0 0;
   transition: all 0.3s ease;
 }
 .content .media-icons a:hover{
@@ -560,8 +486,8 @@ footer a:hover{
     width: 100%;
     margin-top: 30px;
   }
-  footer .content .middle_box{
-      padding-left: 0;
+  footer .content .middle{
+    padding-left: 0;
   }
 }
 
@@ -569,7 +495,6 @@ footer a:hover{
 
 #testimonial {
     background-color: rgb(255, 255, 255);
-    padding-bottom: 20px;
 }
 .testimonial .testimonial-slide {
 	width: 60%;
@@ -585,77 +510,28 @@ footer a:hover{
 	border-radius: 100%;
 	overflow: hidden;
 	margin-bottom: 50px;
-    margin-top: 50px;
 }
 .testimonial .testimonial-slide .content p {
-	/* position: relative; */
+	position: relative;
 	padding:0 50px;
-    font-weight: 200;
 	margin-bottom: 50px;
 	color: #BABABA;
-    font-size: 20px;
-    line-height: 30px;
 }
 
 .budgeting__info {
     padding: 1.5rem;
     width: 100%;
-    margin-bottom: 70px;
-    margin-top: 50px;
 }
 
 .budgeting__info h1 {
-    font-size: 30px;
-    margin-bottom: 1rem;
     color: #216b49;
-    letter-spacing: 1.5px;
+    font-size: 30px;
+    letter-spacing: 1.5rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .budgeting__info p {
     font-weight: 200;
     font-size: 20px;
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    line-height: 25px;
-}
-
-.preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    /* фоновый цвет */
-    background: #e0e0e0;
-    z-index: 1001;
-}
-  
-.preloader__image {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 70px;
-    height: 70px;
-    margin-top: -35px;
-    margin-left: -35px;
-    text-align: center;
-    animation: preloader-rotate 2s infinite linear;
-}
-  
-@keyframes preloader-rotate {
-    100% {
-      transform: rotate(360deg);
-    }
-}
-  
-.loaded_hiding .preloader {
-    transition: 0.3s opacity;
-    opacity: 0;
-}
-  
-.loaded .preloader {
-    display: none;
 }
