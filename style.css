@@ -148,7 +148,7 @@ a.active, a:hover {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     line-height: 40px;
 }
 
@@ -221,13 +221,13 @@ a.active, a:hover {
 
 .team-section {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .team-section .container {
     width: 80%;
     margin: auto;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .team-section .container .row {
@@ -500,6 +500,7 @@ footer a:hover{
 
 #testimonial {
     background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
 }
 .testimonial .testimonial-slide {
 	width: 60%;
@@ -531,6 +532,7 @@ footer a:hover{
     padding: 1.5rem;
     width: 100%;
     margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 .budgeting__info h1 {
