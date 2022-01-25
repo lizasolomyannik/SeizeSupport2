@@ -35,3 +35,8 @@
 ## GitHub Pages
 
 [Здесь](https://lizasolomyannik.github.io/SeizeSupport2/) можно посмотреть наш сайт 🐾
+
+
+## Лицензия
+
+[MIT](https://choosealicense.com/licenses/mit/) в файле MIT-license.txt
